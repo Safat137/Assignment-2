@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+
+body{
+    background-color: rgba(65, 37, 103, 1);
+    color: #FFFFFF;
+}
+
+
+/* navbar design */
+
+nav {
+  /* padding: 5px; */
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 24px;
+  /* border: 1px solid red; */
+}
+
+nav .menu{
+    display: flex;
+    list-style-type: none;
+    gap: 32px;
+    align-items: center;
+    
+}
+.menu a{
+color: #FFFFFF;
+text-decoration: none;
+font-weight: 500px;
+font-size: 16px;
+line-height: 120%;
+
+}
+
+span{
+background-image: linear-gradient(1deg, #F7E93F,#FB09B4,#9100F8);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+}
+
+.btn{
+    padding: 12px 16px 12px 16px;
+    border-radius: 10000px;
+    color: #FFFFFF;
+    font-size:16px ;
+    font-weight: 600;
+    border: 0;
+    background: linear-gradient(-47.64deg, #9100F8,#FB09B4,#F7E93F);
+}
+.hamburger{
+    margin-right: 20px;
+    display: none;
+}
+
+
+
+
+
+
+
+
+/* responsive code */
+@media screen and (max-width: 576px) {
+.menu a, .btn{
+        display: none;
+}
+
+    
+.hamburger{
+    margin-right: 20px;
+    display: inline;
+}
+.text-1{
+    margin-left: 20px;
+}
+}
