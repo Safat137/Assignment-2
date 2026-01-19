@@ -93,11 +93,25 @@ background-image: linear-gradient(1deg, #F7E93F,#FB09B4,#9100F8);
   position: relative;
 
 }
-
+@keyframes pulse{
+    0%{
+        transform: scale(1);
+        opacity: 1;
+    }
+    50%{
+        transform: scale(1.1);
+        opacity: 0.7;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
 .microphone{
 position: absolute;
 bottom: 32%;
 left: 46%;
+animation: pulse 2s infinite;
 }
 
 .new{
