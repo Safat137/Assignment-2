@@ -305,6 +305,71 @@ border-radius: 40px;
 
 
 
+/* Featured Episodes */
+
+#Episodes{
+max-width: 1600px;
+margin: 120px;
+}
+
+.Episodes-container{
+    margin: 0 auto;
+}
+
+.Episodes-heading h4{
+text-align: center;
+font-size: 48px;
+font-weight: 700;
+line-height: 58px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+}
+
+.card{
+
+display: flex;
+gap: 30px;
+border-radius: 24px;
+height: 440px;
+margin-top: 40px;
+/* border: 1px solid red; */
+width: 100%;
+
+}
+.card-1,.card-2,.card-3{
+    /* border: 1px solid greenyellow; */
+    background-color: #250D44;
+    border-radius: 24px;
+
+}
+.card-text{
+font-size: 24px;
+font-weight: 700;
+line-height: 29px;
+padding: 24px;
+}
+.text-5{
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+padding-left: 24px;
+}
+
+.clock{
+    display: flex;
+    color: #00FF88;
+    gap: 6px;
+    padding-left: 24px;
+    padding-top: 12px;
+}
+
+
+
+
+
+
+
 
 
 /* responsive code */
